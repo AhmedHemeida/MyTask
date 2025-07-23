@@ -13,11 +13,9 @@ This project is a responsive dashboard built using:
 
 📺 [Watch the Demo](https://screenapp.io/app/#/shared/O7B0SH-nxs)
 
-```
 
-```
 
----
+
 
 ## 🚀 Setup Instructions
 
