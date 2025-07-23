@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Responsive Dashboard with Next.js, Redux Toolkit, Tailwind CSS
 
-## Getting Started
+This project is a responsive dashboard built using:
 
-First, run the development server:
+- **Next.js** 
+- **Redux Toolkit** for global state management
+- **Tailwind CSS** for styling
+- **Recharts** for data visualization
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🎥 Demo Video
+
+📺 [Watch the Demo](https://screenapp.io/app/#/shared/O7B0SH-nxs)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Setup Instructions
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/AhmedHemeida/your-repo-name.git](https://github.com/AhmedHemeida/MyTask.git
+   cd MyTask
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Visit in your browser:**
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🔐 Login Feature
+
+- Simple login form (no password).
+- User state saved using Redux.
+- If not logged in, user is redirected to `/login`.
+
+---
+
+## 📊 Dashboard Features
+
+- Table displays data from `utils/mockData`.
+- Responsive line chart using `recharts`.
+- Redux used to manage both `auth` and `data` slices.
+
+---
+
+## 🧠 Implementation Approach
+
+- Used **App Router** and `use client` for interactivity.
+- Created a global `store` and provided it using a `<Provider>` component.
+- Used `useSelector` to access data and user state.
+- Handled route protection using `useRouter` and `useEffect`.
+- Tailwind used for clean, responsive layout.
+
+---
+
+## 📦 Dependencies
+
+- `next`
+- `react`
+- `react-dom`
+- `@reduxjs/toolkit`
+- `react-redux`
+- `recharts`
+- `tailwindcss` + `postcss` + `autoprefixer`
+
+---
+
+
