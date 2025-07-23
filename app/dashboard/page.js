@@ -38,7 +38,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-black text-white p-4 space-y-6">
-      {/* Header */}
+ 
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold">Dashboard</h1>
         <button
@@ -49,12 +49,12 @@ export default function Dashboard() {
         </button>
       </div>
 
-      {/* Chart Section */}
+      
       <div className="w-full overflow-x-auto">
         <Chart data={mockData} />
       </div>
 
-      {/* Data Table Section */}
+      
       <div className="w-full overflow-x-auto">
         <DataTable data={mockData} />
       </div>
