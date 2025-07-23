@@ -56,6 +56,7 @@ This project is a responsive dashboard built using:
 
 ## 📊 Dashboard Features
 
+- Data Table with Filtering , Sorting and Pagination
 - Table displays data from `utils/mockData`.
 - Responsive line chart using `recharts`.
 - Redux used to manage both `auth` and `data` slices.
